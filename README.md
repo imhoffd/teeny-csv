@@ -12,6 +12,12 @@ Trying to be the teeny-tiniest CSV library possible. Currently 382B.
 - No, there aren't TypeScript types.
 - Only accepting PRs that make `teeny-csv` teensier, not better.
 
+## Install
+
+```
+npm i teeny-csv
+```
+
 ## Usage
 
 This Node example uses `readline` to read a CSV file into an array of objects keyed by header.
