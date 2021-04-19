@@ -1,6 +1,5 @@
 module.exports = l => {
   var c, i = 0, s = '', r = [], q = false, e = false
-  if (l.charCodeAt(i) === 0xfeff) i++
   while (c = l.charAt(i++)) {
     if (c === ',' && !q) { r.push(s); s = '' }
     else if (c === '\\') { e = true }
