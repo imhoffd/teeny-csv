@@ -7,6 +7,7 @@ Trying to be the teeny-tiniest CSV library possible. Currently 382B.
   - Commas (`,`) to separate values
   - Double quotes (`"`) allowed to wrap values with commas in them
   - Escaped double quotes (`\"`) allowed within double quotes for the literal `"` character
+- Handles BOMs but probably shouldn't (see https://github.com/imhoffd/teeny-csv/pull/1).
 - No helpful errors.
 - In general, make your CSVs better if you want to use `teensy-csv`.
 - No, there aren't TypeScript types.
