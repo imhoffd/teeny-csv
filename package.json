@@ -1,0 +1,12 @@
+{
+  "name": "tinycsv",
+  "version": "0.0.1",
+  "description": "Trying to be the smallest CSV library possible.",
+  "author": "Daniel Imhoff <dwieeb@gmail.com>",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "csv"
+  ],
+  "license": "MIT"
+}
