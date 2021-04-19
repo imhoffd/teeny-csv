@@ -1,6 +1,6 @@
-# tinycsv
+# teeny-csv
 
-Trying to be the smallest CSV library possible. Currently 382B.
+Trying to be the teeny-tiniest CSV library possible. Currently 382B.
 
 - Only parses single CSV rows at a time.
 - Absolutely no options to change the following parsing rules:
@@ -8,9 +8,9 @@ Trying to be the smallest CSV library possible. Currently 382B.
   - Double quotes (`"`) allowed to wrap values with commas in them
   - Escaped double quotes (`\"`) allowed within double quotes for the literal `"` character
 - No helpful errors.
-- In general, make your CSVs better if you want to use `tinycsv`.
+- In general, make your CSVs better if you want to use `teensy-csv`.
 - No, there aren't TypeScript types.
-- Only accepting PRs that make `tinycsv` tinier, not better.
+- Only accepting PRs that make `teeny-csv` teensier, not better.
 
 ## Usage
 
@@ -19,7 +19,7 @@ This Node example uses `readline` to read a CSV file into an array of objects ke
 ```javascript
 const fs = require('fs');
 const readline = require('readline');
-const parse = require('tinycsv');
+const parse = require('teeny-csv');
 
 const rs = fs.createReadStream('path/to/file.csv', { encoding: 'utf8' });
 const rl = readline.createInterface({ input: rs });
