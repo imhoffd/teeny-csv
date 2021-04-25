@@ -1,6 +1,6 @@
 {
   "name": "teeny-csv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Trying to be the teeny-tiniest CSV library possible.",
   "author": "Daniel Imhoff <dwieeb@gmail.com>",
   "main": "index.js",
