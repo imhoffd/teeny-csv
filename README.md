@@ -11,7 +11,7 @@ Trying to be the teeny-tiniest CSV library possible. Currently 382B.
 - No helpful errors.
 - In general, make your CSVs better if you want to use `teensy-csv`.
 - No, there aren't TypeScript types.
-- Only accepting PRs that make `teeny-csv` teensier, not better.
+- Only accepting PRs that make `teeny-csv` teenier, not better.
 
 ## Install
 
